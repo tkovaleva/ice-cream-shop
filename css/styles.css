@@ -1,0 +1,262 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/inter-900.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #565C66;
+  background-color: #FEAFC3;
+}
+
+.promotion__container {
+  background-repeat: no-repeat;
+  background-position: 374px bottom;
+  background-size: auto;
+  background-color: #FF7799;
+  border-radius: 16px;
+}
+
+.promotion__container__first {
+  background-image: url("../img/raspberry-promotion.png");
+}
+
+.promotion__container__second {
+  background-image: url("../img/marshmallow-promotion.png");
+}
+
+.description-wrapper {
+  background-image: url("../img/waffle-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e1cb9e;
+  border-radius: 16px;
+}
+
+.ice-cream-slider {
+  color: #2D3440;
+}
+
+.blog {
+  background-image: url("../img/serving-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+}
+
+.subscription {
+  background-image: url("../img/mail-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+}
+
+.delivery {
+  background-image: url("../img/delivery-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+}
+
+.address {
+  background-image: url("../img/address-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+}
+
+.main-header {
+  color: #2D3440;
+}
+
+.navigation-link {
+  line-height: 20px;
+}
+
+.phone {
+  font-weight: 700;
+}
+
+.user-navigation-link {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2D3440;
+  text-align: center;
+}
+
+.ice-cream-slider__title{
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.ice-cream-slider__text {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.button {
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px 32px;
+  box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+  cursor: pointer;
+}
+
+.button-white {
+  background: #FCFCFC;
+  background-clip: padding-box;
+  color: #2D3440;
+  border: 4px solid rgba(252, 252, 252, 0.4);
+}
+
+.button-pink {
+  background: #FF2F64;
+  background-clip: padding-box;
+  color: #FCFCFC;
+  border: 4px solid rgba(255, 47, 100, 0.3);
+}
+
+.button-translucent {
+  background: rgba(252, 252, 252, 0.3);
+  border: 4px solid #FCFCFC;
+}
+
+.promotion {
+  color: #2D3440;
+}
+
+.promotion__header {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px
+}
+
+.popular-flavors__header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2D3440;
+}
+
+.popular-flavors__price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2D3440;
+}
+
+.blog__text {
+  line-height: 20px;
+}
+
+.blog__header {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2D3440;
+}
+
+.delivery__label {
+  font-weight: 700;
+  line-height: 20px;
+  color: #2D3440;
+}
+
+.address__bold {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2D3440;
+}
+
+.main-footer {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2D3440;
+}
+
+.main-footer__bold {
+  font-weight: 700;
+}
+
+.breadcrumbs {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2D3440;
+}
+
+.breadcrumbs a {
+ text-decoration: underline;
+}
+
+.filters {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2D3440;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input, button {
+  font-family: inherit;
+  color: inherit;
+  border: none;
+}
+
+li {
+  list-style-type: none;
+}
